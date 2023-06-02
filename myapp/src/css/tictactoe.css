@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+.game{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    margin-bottom: 20px;
+    font-family: "Permanent Marker",cursive;
+}
+.game-info{
+    font-size:35px;
+    font-weight: bold;
+    margin-top:25px;
+    margin-bottom: 25px;
+}
+.reset-button{
+    padding:15px;
+    border-radius: 15px;
+    color:white;
+    background-color: rgb(28, 44, 44);
+    font-size: 25px;
+    cursor:pointer;
+}
+.square{
+    height:65px;
+    width:65px;
+    text-align: center;
+    font-size:50px;
+    background-color:rgb(151, 147, 142);
+    box-shadow: 0 0 0 2px;
+}
