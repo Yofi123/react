@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom/client';
 import Age from '../src/components/age'
 import TicTacToe from '/home/yofi/react/myapp/src/components/tictactoe.js'
 import AjaxApi from './components/ajax';
+import Server from './components/expressapi';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AjaxApi />
+    <ExpressAPI />
   </React.StrictMode>
 );
 
